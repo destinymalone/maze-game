@@ -1,5 +1,20 @@
+#canvas.light {
+    animation: light .5s ease-in-out 1;
+}
+
+@keyframes light {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: rgb(252, 252, 141);
+    }
+    100% {
+        background-color: black;
+    }
+}
 #canvas {
-    background-color: rgb(252, 252, 141);
+    background-color: black;
 }
 /* 
 button {
