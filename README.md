@@ -1,5 +1,5 @@
 # maze-game
-I made a simple maze game for others to enjoy playing and to display my HTML, CSS, and JavaScript skills.
+I made a simple maze game for others to enjoy playing and to display HTML, CSS, and JavaScript skills.
 
 Running the web app and using the up, down, left, and right arrows to move the player.
 
