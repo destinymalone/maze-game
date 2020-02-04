@@ -1,7 +1,5 @@
 const canvas = document.getElementById('canvas')
 const context = canvas.getContext('2d')
-
-
 const worldMap = [
     [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     [1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1],
