@@ -21,7 +21,7 @@ const worldMap = [
   [1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1],
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 ];
-const ending = worldMap[16][19];
+const ending = worldMap[16][15];
 
 const columns = 19;
 const size = parseInt(canvas.width / columns);
@@ -73,6 +73,10 @@ const player = {
 
     if (!hit) {
       this.y += size;
+    }
+
+    if (self.y >= columns * size) {
+      alert('Nice victory!')
     }
   },
   moveLeft: function() {
